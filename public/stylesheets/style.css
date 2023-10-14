@@ -1,0 +1,180 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-image: url(../images/felix-mittermeier-Knwea-mLGAg-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  width: 95%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer,
+footer a {
+  color: rgb(177, 177, 177);
+  font-size: 1rem;
+  flex-direction: column;
+  text-align: left;
+}
+
+footer a:hover {
+  color: #bf40bf;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.navbar {
+ font-size: 1.2rem;
+ background-color: #bf40bf;
+ border-radius: 0.5rem;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-left: 0.5em;
+}
+
+section {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 1.5%;
+  padding-left: 1.75%;
+  padding: 1em;
+  color: #fff;
+}
+
+/*Home Page*/
+.index-p {
+  text-align: center;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index div {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+#name {
+  color: #bf40bf;
+  display: inline;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+  box-shadow: 5px 10px rgba(191, 64, 150, 0.4);
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 5px solid #bf40bf;
+  border-radius: 0.5rem;
+  margin-right: 0.5em;
+}
+
+/*Contact Me Page*/
+.form-div {
+  margin-top: 2em;
+}
+
+.form-div .form-div-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div form {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-right: 1.5%;
+  padding-left: 1.75%;
+  padding-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+
+.form-div-in input,
+.form-div-in textarea {
+  color: #bf40bf;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-right: 1.5%;
+  padding-left: 1.75%;
+  margin: 1em;
+  padding: 1em;
+  font-size: 0.75rem;
+}
+
+.form-div-in .inputs-12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-div-in .inputs-12 input {
+  width: 47%;
+}
+
+.form-div-in input::placeholder,
+.form-div-in textarea::placeholder {
+  color: #fff;
+  opacity: 0.75;
+}
+
+.form-button {
+  margin-top: 1em;
+  margin-left: 0.3em;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: #bf40bf;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 9%;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.45);
+}
+
+/*Projects Page*/
+.proj-1,
+.proj-2,
+.proj-3 {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-right: 1.5%;
+  padding-left: 1.75%;
+  padding: 1em;
+}
+
+.projects div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.projects div h3 {
+  color: #bf40bf;
+}
+
+/*About page*/
+#about p {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
